@@ -1,3 +1,4 @@
+
 const mysql = require('mysql2');
 const cTable = require('console.table');
 const db = mysql.createConnection(
@@ -11,7 +12,7 @@ const db = mysql.createConnection(
 );
 
 const inquirer = require('inquirer');
-
+//
 const promptUser = () => {
     return inquirer.prompt([
         {
